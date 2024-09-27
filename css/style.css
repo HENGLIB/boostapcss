@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.container {
+    width: 1200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+}
+
+.row {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    padding: 150px;
+}
+
+
+/*start col-left  */
+
+.col-left {
+    width: 40%;
+    float: left;
+    justify-content: center;
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Logo-fb {
+    width: 100%;
+    font-size: 60px;
+    font-weight: 900;
+    color: royalblue;
+}
+
+.para {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+
+
+/* end col-left */
+
+
+/* start col-right */
+
+.col-right {
+    width: 40%;
+    /* height: 350px; */
+    float: right;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #f7fcfe;
+    box-shadow: 0px 0px 10px 5px #add8e680;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+input {
+    width: 100%;
+    border: 1px solid royalblue;
+    margin: 10px auto;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.btn {
+    margin: 7px auto;
+    width: 100%;
+    border: 1px solid royalblue;
+    background-color: royalblue;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 10px;
+}
+
+
+/* btn of create */
+
+.btn1 {
+    margin: 7px auto;
+    width: 100%;
+    border: 1px solid #41e16e;
+    background-color: #08f757;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 10px;
+}
+
+
+/* end btn of create */
+
+
+/*  */
+
+form {
+    margin-bottom: 10px;
+    width: 100%;
+    justify-content: center;
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+}
+
+.forgot {
+    width: 80%;
+    text-align: center;
+    font-size: 20px;
+    color: royalblue;
+    cursor: pointer;
+    border-bottom: 1px solid black;
+    /* You can adjust the color and thickness */
+    display: inline-block;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.create {
+    text-align: center;
+    font-size: 15px;
+    margin: 30px auto;
+    width: 80%;
+}
+
+
+/* start btn create account */
+
+.create-account {
+    color: white;
+    background-color: #0fd619;
+    border: 1px solid rgba(26, 178, 64, 0.333);
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+/* end btn create account */
+
+
+/* start col-right of page create account */
+
+.parag {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: #111113;
+    cursor: pointer;
+    border-top: 2px solid black;
+    /* You can adjust the color and thickness */
+    display: inline-block;
+    /* position: relative; */
+    padding: 20px;
+    /* margin-bottom: 10px; */
+}
+
+
+/* Start login A at the top */
+
+.login {
+    color: royalblue;
+}
+
+
+/* end col-right of page create account */
